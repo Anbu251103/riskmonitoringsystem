@@ -1,148 +1,286 @@
-# 🎓 Student Risk Monitoring System
-BY (TAT CODERS) 1.A P ASHMITHA , 2.THAKSHITHAA V P , 3.THANISHCA T
+# \# 🎓 Student Risk Monitoring System
+
+##### BY (TAT CODERS) 1.A P ASHMITHA , 2.THAKSHITHAA V P , 3.THANISHCA T 
+
+
+
 An AI-powered system that helps schools identify students at risk of dropping out and suggests early interventions.
+
+
 
 This system analyzes attendance, exam marks, socio-economic indicators, and school participation to predict dropout risk and recommend actions for teachers.
 
-# 🚨 Problem
+
+
+---
+
+
+
+## \# 🚨 Problem
+
+
+
 Many students drop out of school due to issues like:
 
-- Low attendance
 
-- Poor academic performance
 
-- Long distance from school
+\- Low attendance
 
-- Family dropout history
+\- Poor academic performance
 
-- Lack of participation in school programs
+\- Long distance from school
 
-Schools often identify these problems **too late**.
+\- Family dropout history
 
-Our system helps **detect early warning signs using AI** so teachers can intervene quickly.
+\- Lack of participation in school programs
 
-# 💡 Solution
-The **Student Risk Monitoring System** provides:
 
-- Dropout risk prediction
 
-- Government policy recommendations
+Schools often identify these problems \*\*too late\*\*.
 
-- Teacher intervention tracking
 
-- Parent communication generator
 
-- AI counselor for teachers
+Our system helps \*\*detect early warning signs using AI\*\* so teachers can intervene quickly.
 
-- Progress comparison dashboard
 
-This helps schools take **data-driven decisions** to support students.
 
-# ⚙️ Technologies Used
-- Python
+---
 
-- Streamlit
 
-- Pandas
 
-- Plotly
+## \# 💡 Solution
 
-- Scikit-learn
 
-- Random Forest Machine Learning Model
 
-# 🧠 AI Model
-The system uses a **Random Forest Classifier** to predict dropout risk based on:
+The \*\*Student Risk Monitoring System\*\* provides:
 
-- Attendance percentage
 
-- Exam marks
 
-- Mid-day meal participation
+\- Dropout risk prediction
 
-- Distance from home to school
+\- Government policy recommendations
 
-- Sibling dropout history
+\- Teacher intervention tracking
+
+\- Parent communication generator
+
+\- AI counselor for teachers
+
+\- Progress comparison dashboard
+
+
+
+This helps schools take \*\*data-driven decisions\*\* to support students.
+
+
+
+---
+
+
+
+### \# ⚙️ Technologies Used
+
+
+
+\- Python
+
+\- Streamlit
+
+\- Pandas
+
+\- Plotly
+
+\- Scikit-learn
+
+\- Random Forest Machine Learning Model
+
+
+
+---
+
+
+
+#### \# 🧠 AI Model
+
+
+
+The system uses a \*\*Random Forest Classifier\*\* to predict dropout risk based on:
+
+
+
+\- Attendance percentage
+
+\- Exam marks
+
+\- Mid-day meal participation
+
+\- Distance from home to school
+
+\- Sibling dropout history
+
+
 
 The model predicts:
 
-🔴 High Dropout Risk
+
+
+🔴 High Dropout Risk  
 
 🟢 Low Risk
 
-# 📊 Key Features
-## 📈 Dashboard
+
+
+---
+
+
+
+### \# 📊 Key Features
+
+##### 
+
+##### \## 📈 Dashboard
+
 Displays overall statistics including:
 
-- Total students
 
-- Low attendance
 
-- Low marks
+\- Total students
 
-- High-risk students
+\- Low attendance
+
+\- Low marks
+
+\- High-risk students
+
+
 
 Includes risk visualization charts.
 
-## 📚 Student Data
+
+
+---
+
+##### 
+
+##### \## 📚 Student Data
+
 Displays all student records including:
 
-- Attendance
 
-- Marks
 
-- Socio-economic indicators
+\- Attendance
 
-## ⚠️ Risk Analysis
-Calculates a **risk score** for each student and identifies causes such as:
+\- Marks
 
-- Low attendance
+\- Socio-economic indicators
 
-- Low marks
 
-- Long travel distance
 
-- Mid-day meal irregularity
+---
 
-- Family dropout history
 
-The system also recommends **government policies** that may help.
 
-## 🛠 Intervention Tracking
+##### \## ⚠️ Risk Analysis
+
+Calculates a \*\*risk score\*\* for each student and identifies causes such as:
+
+
+
+\- Low attendance
+
+\- Low marks
+
+\- Long travel distance
+
+\- Mid-day meal irregularity
+
+\- Family dropout history
+
+
+
+The system also recommends \*\*government policies\*\* that may help.
+
+
+
+---
+
+
+
+##### \## 🛠 Intervention Tracking
+
 Teachers can record interventions such as:
 
-- Counseling
 
-- Extra tutoring
 
-- Transport support
+\- Counseling
 
-- Parent meetings
+\- Extra tutoring
 
-The system logs **before and after performance**.
+\- Transport support
 
-## 📩 Parent Communication
+\- Parent meetings
+
+
+
+The system logs \*\*before and after performance\*\*.
+
+
+
+---
+
+
+
+##### \## 📩 Parent Communication
+
 Automatically generates supportive messages for parents based on the student's situation.
 
-## 📉 Progress Comparison
+
+
+---
+
+
+
+##### \## 📉 Progress Comparison
+
 Shows improvement after intervention using charts:
 
-- Attendance before vs after
 
-- Marks before vs after
 
-## 🤖 AI Teacher Counselor
+\- Attendance before vs after
+
+\- Marks before vs after
+
+
+
+---
+
+
+
+##### \## 🤖 AI Teacher Counselor
+
 Provides guidance to teachers by:
 
-- Identifying dropout causes
 
-- Suggesting government schemes
 
-- Recommending interventions
+\- Identifying dropout causes
 
-- Providing conversation guidance for students
+\- Suggesting government schemes
 
-# 📂 Project Structure
+\- Recommending interventions
+
+\- Providing conversation guidance for students
+
+
+
+---
+
+
+
+### \# 📂 Project Structure
+
+
+
+```
 
 student-risk-monitoring-system
 
@@ -158,78 +296,163 @@ student-risk-monitoring-system
 
 └── README.md
 
-# ▶️ How to Run the Project
-1. Install required libraries
+```
 
+
+
+---
+
+#### 
+
+#### \# ▶️ How to Run the Project
+
+
+
+1\. Install required libraries
+
+
+
+```
 
 pip install -r requirements.txt
 
-2. Run the Streamlit app
+```
 
+
+
+2\. Run the Streamlit app
+
+
+
+```
 
 streamlit run app.py
 
-3. Open in browser
+```
 
+
+
+3\. Open in browser
+
+
+
+```
 
 http://localhost:8501
 
-## Installation
-1. Clone the repository
+```
 
-2. Install dependencies
+
+
+---
+
+#### \## Installation
+
+### 
+
+1\. Clone the repository
+
+2\. Install dependencies
+
+
 
 pip install -r requirements.txt
 
-3. Run the Streamlit app
+
+
+3\. Run the Streamlit app
+
+
 
 streamlit run app.py
 
-# 📁 Dataset
+### \# 📁 Dataset
+
+
+
 The system uses two CSV files:
 
-### students.csv
+
+
+\### students.csv
+
+
 
 Contains student information including:
 
-- registration number
 
-- attendance
 
-- exam marks
+\- registration number
 
-- meal participation
+\- attendance
 
-- distance from school
+\- exam marks
 
-- sibling dropout history
+\- meal participation
 
-### intervention.csv
+\- distance from school
+
+\- sibling dropout history
+
+
+
+\### intervention.csv
+
+
 
 Stores intervention records and improvement tracking.
 
-# 🌍 Impact
+
+
+---
+
+
+
+#### \# 🌍 Impact
+
+
+
 This system can help schools:
 
-- Detect dropout risk early
 
-- Support vulnerable students
 
-- Improve academic outcomes
+\- Detect dropout risk early
 
-- Connect students with government schemes
+\- Support vulnerable students
 
-# 👨‍💻 Team Project
+\- Improve academic outcomes
+
+\- Connect students with government schemes
+
+
+
+---
+
+
+
+### \# 👨‍💻 Team Project
+
+
+
 Developed as an AI-based education analytics project to support teachers and schools in preventing student dropout.
 
-# 📌 Future Improvements
-- Deep learning prediction models
 
-- Mobile app for teachers
 
-- Real-time attendance integration
+---
 
-- Government scheme auto-application
+### 
 
-- Student performance trend prediction
+### \# 📌 Future Improvements
+
+
+
+\- Deep learning prediction models
+
+\- Mobile app for teachers
+
+\- Real-time attendance integration
+
+\- Government scheme auto-application
+
+\- Student performance trend prediction
 
